@@ -1,0 +1,47 @@
+package stepDefination;
+
+public class Login_LogoutTest 
+{
+	@Given("^launch the browser and navigated to url$")
+	public void launch_the_browser_and_navigated_to_url() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^tester enters username and password$")
+	public void tester_enters_username_and_password() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^clicks on login$")
+	public void clicks_on_login() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^welcome message displayed$")
+	public void welcome_message_displayed() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^Tester clicks on Welcome Admin$")
+	public void tester_clicks_on_Welcome_Admin() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^also click on logout$")
+	public void also_click_on_logout() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^login page displayed$")
+	public void login_page_displayed() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

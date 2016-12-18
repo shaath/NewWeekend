@@ -1,0 +1,13 @@
+package testNG;
+
+import org.testng.annotations.DataProvider;
+
+public class DataproviderEg 
+{
+	@DataProvider
+	public Object[][] data()
+	{
+		Object[][] d=new Object[3][2];
+	}
+
+}

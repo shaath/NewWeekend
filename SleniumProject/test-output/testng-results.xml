@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid Test" duration-ms="27236" started-at="2016-12-18T09:37:18Z" finished-at="2016-12-18T09:37:46Z">
+    <groups>
+    </groups>
+    <test name="On chrome" duration-ms="14084" started-at="2016-12-18T09:37:18Z" finished-at="2016-12-18T09:37:32Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="tt(java.lang.String)[pri:0, instance:grid.GridEg@630ed39f]" name="tt" duration-ms="14024" started-at="2016-12-18T15:07:18Z" finished-at="2016-12-18T15:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tt -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- On chrome -->
+    <test name="On fIREFOX" duration-ms="27236" started-at="2016-12-18T09:37:18Z" finished-at="2016-12-18T09:37:46Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="tt(java.lang.String)[pri:0, instance:grid.GridEg@157032da]" name="tt" duration-ms="27196" started-at="2016-12-18T15:07:18Z" finished-at="2016-12-18T15:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tt -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- On fIREFOX -->
+  </suite> <!-- Grid Test -->
+</testng-results>
